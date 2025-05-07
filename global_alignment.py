@@ -110,4 +110,9 @@ if __name__ == "__main__":
     seq1 = sequences[0]
     seq2 = sequences[1]
 
-    print(align(seq1, seq2))
+    print(seq1, len(seq1), seq2, len(seq2))
+    s1, s2 = align(seq1, seq2)
+    print("--------------")
+    print(s1, len(s1))
+    print(s2, len(s2))
+    print("--------------")

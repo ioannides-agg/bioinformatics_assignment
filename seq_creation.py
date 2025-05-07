@@ -42,7 +42,7 @@ def replace_symbols(pattern):
             pattern_copy[x] = random.choice(ab_with_null)
 
         pattern_copy = "".join(str(item) for item in pattern_copy if item != '')
-        return pattern
+        return pattern_copy
         
 
 
